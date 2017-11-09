@@ -1,0 +1,42 @@
+:root {
+	--primary-color: #cc33ff;
+	--secondary-color: #0000ff;
+	--header-color: #990099;
+	--sub-header-color: #cc0052;
+	--main-font: 'Roboto Slab', serif;
+	--p-font: 'Oswald', sans-serif;
+	--large-font: 60px;
+	--small-font: 30px;
+	--extra-small-font: 20px;
+}
+
+html, body {
+	background-image: url("../img/space.png");
+}
+
+.card {
+	background-color: var(--primary-color);
+	margin-top: 150px;
+}
+
+span.card-title.text-center {
+	color: var(--header-color);
+	font-family: var(--main-font);
+	font-size: var(--large-font);
+}
+
+p.text-center {
+	color: var(--secondary-color);
+	font-family: var(--p-font);
+	font-size: var(--small-font);
+}
+
+p.sub-text {
+	color: var(--sub-header-color);
+	font-size: var(--extra-small-font);
+}
+
+img {
+	height: 337px;
+	width: 100%;
+}
